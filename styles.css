@@ -130,6 +130,11 @@ a:hover {
   text-decoration: underline;
 }
 
+.project h3,
+.project h3 a {
+  color: var(--secondary-color);
+}
+
 /* Mobile responsiveness */
 @media (max-width: 600px) {
   .container {
