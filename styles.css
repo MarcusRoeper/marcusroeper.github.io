@@ -121,6 +121,15 @@ footer {
   filter: none;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 /* Mobile responsiveness */
 @media (max-width: 600px) {
   .container {
